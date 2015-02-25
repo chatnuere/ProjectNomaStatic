@@ -1,0 +1,243 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* Font Icon */
+@font-face {
+  font-family: 'fontello';
+  src: url("../../media/fonts/font-icon/fontello.eot?34313199");
+  src: url("../../media/fonts/font-icon/fontello.eot?34313199#iefix") format("embedded-opentype"), url("../../media/fonts/font-icon/fontello.woff?34313199") format("woff"), url("../../media/fonts/font-icon/fontello.ttf?34313199") format("truetype"), url("../../media/fonts/font-icon/fontello.svg?34313199#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?34313199#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+.icon-menu:before {
+  content: '\e800'; }
+
+/* '' */
+.icon-facebook:before {
+  content: '\e801'; }
+
+/* '' */
+.icon-twitter:before {
+  content: '\e802'; }
+
+/* '' */
+.icon-right-open-big:before {
+  content: '\e803'; }
+
+/* '' */
+.icon-left-open-big:before {
+  content: '\e804'; }
+
+/* '' */
+.icon-mail:before {
+  content: '\e805'; }
+
+/* '' */
+.icon-ok:before {
+  content: '\e806'; }
+
+/* '' */
+.icon-down-open-mini:before {
+  content: '\e807'; }
+
+/* '' */
+.icon-gplus:before {
+  content: '\e808'; }
+
+/* '' */
+body {
+  font-family: "Raleway", sans-serif;
+  color: #666;
+  font-size: 18px; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Sanchez", serif;
+  color: #000; }
+
+h1 {
+  font-size: 2.944em;
+  letter-spacing: 0.05em; }
+
+h2 {
+  font-size: 2.222em;
+  letter-spacing: 0.1em; }
+
+h3 {
+  font-size: 1.667em;
+  letter-spacing: 0.025em; }
+
+h4 {
+  font-size: 1.444em;
+  letter-spacing: 0.025em; }
+
+h5 {
+  font-size: 1.167em;
+  letter-spacing: 0.025em; }
+
+h6 {
+  font-family: sans-serif;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.333em; }
+
+strong {
+  font-weight: 700; }
+
+.button {
+  display: inline-block;
+  padding: 0.806em 2.028em 0.694em;
+  border-bottom: 4px solid #cf9e23;
+  background-color: #fcc12d;
+  text-transform: uppercase;
+  color: #000; }
+  .button:hover {
+    background-color: #f7dd9d;
+    color: #000; }
+
+.button.small {
+  padding: 1.286em 2.143em 1em; }
+
+header {
+  background-color: #000;
+  border-bottom: 1px solid #2b2b2b; }
+  header > div {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0.111em 0; }
+    header > div h1 {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 0; }
+      header > div h1 img {
+        width: 187px; }
+    header > div nav {
+      text-align: center;
+      display: inline-block;
+      vertical-align: middle;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      width: -webkit-calc(100% - 187px);
+      width: -moz-calc(100% - 187px);
+      width: calc(100% - 187px); }
+      header > div nav ul li {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0.500em 0;
+        margin: 0 1.667em; }
+        header > div nav ul li a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 0.667em;
+          text-transform: uppercase;
+          display: inline-block;
+          padding: 1em; }
+          header > div nav ul li a:hover {
+            color: #fcc12d; }
+        header > div nav ul li a.button {
+          font-size: 0.722em; }
+      header > div nav ul li:last-child {
+        padding: 0; }
+
+#child {
+  background-color: #000; }
+  #child div {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 1.778em 0;
+    position: relative; }
+    #child div .first, #child div .last {
+      font-size: 1.556em;
+      color: #fff;
+      position: absolute; }
+    #child div .first {
+      top: 0;
+      left: 0;
+      width: 9.75em; }
+    #child div .last {
+      top: 50%;
+      right: 0;
+      text-align: right;
+      width: 12.643em; }

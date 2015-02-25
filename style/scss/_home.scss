@@ -1,0 +1,26 @@
+#child {
+  background-color: $black;
+  div {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 1.778em 0;
+    position: relative;
+    .first, .last{
+      font-size: 1.556em;
+      color: $white;
+      position: absolute;
+    }
+    .first{
+      top: 0;
+      left: 0;
+      width: 9.750em
+    }
+    .last{
+      top: 50%;
+      right: 0;
+      text-align: right;
+      width: 12.643em;
+    }
+
+  }
+}

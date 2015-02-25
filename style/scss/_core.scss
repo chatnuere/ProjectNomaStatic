@@ -1,0 +1,60 @@
+body{
+  font-family: $sans-serif;
+  color: $mainDark;
+  font-size: $font-size;
+}
+h1, h2, h3, h4, h5{
+  font-family: $serif;
+  color: $black;
+}
+
+h1{
+  font-size: 2.944em;
+  letter-spacing: 0.05em;
+}
+
+h2{
+  font-size: 2.222em;
+  letter-spacing: 0.1em;
+}
+
+h3{
+  font-size: 1.667em;
+  letter-spacing: 0.025em;
+}
+h4{
+  font-size: 1.444em;
+  letter-spacing: 0.025em;
+}
+h5{
+  font-size: 1.167em;
+  letter-spacing: 0.025em;
+}
+h6{
+  font-family: sans-serif;
+  color: $black;
+  text-transform: uppercase;
+  font-size: 1.333em;
+}
+
+strong{
+  font-weight: 700;
+}
+
+
+
+.button{
+  display: inline-block;
+  padding: 0.806em 2.028em 0.694em;
+  border-bottom:4px solid $darkBrand1 ;
+  background-color: $brand1;
+  text-transform: uppercase;
+  color: $black;
+  &:hover{
+    background-color: $lightBrand1;
+    color: $black;
+  }
+}
+.button.small{
+  padding:1.286em 2.143em 1em;
+}
