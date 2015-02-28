@@ -1,60 +1,202 @@
-body{
+body {
   font-family: $sans-serif;
   color: $mainDark;
   font-size: $font-size;
-}
-h1, h2, h3, h4, h5{
-  font-family: $serif;
-  color: $black;
+  font-weight: 400;
 }
 
-h1{
+h1, h2, h3, h4, h5 {
+  font-family: $serif;
+  color: $black;
+  text-transform: uppercase;
+}
+
+h1 {
   font-size: 2.944em;
   letter-spacing: 0.05em;
 }
 
-h2{
+h2 {
   font-size: 2.222em;
   letter-spacing: 0.1em;
 }
 
-h3{
+h3 {
   font-size: 1.667em;
   letter-spacing: 0.025em;
 }
-h4{
+
+h4 {
   font-size: 1.444em;
   letter-spacing: 0.025em;
 }
-h5{
+
+h5 {
   font-size: 1.167em;
   letter-spacing: 0.025em;
 }
-h6{
+
+h6 {
   font-family: sans-serif;
   color: $black;
   text-transform: uppercase;
   font-size: 1.333em;
 }
 
-strong{
+strong {
   font-weight: 700;
 }
 
+.chiffres {
+  font-family: $chiffres;
+}
 
-
-.button{
+.button {
   display: inline-block;
   padding: 0.806em 2.028em 0.694em;
-  border-bottom:4px solid $darkBrand1 ;
+  border-bottom: 4px solid $darkBrand1;
   background-color: $brand1;
   text-transform: uppercase;
   color: $black;
-  &:hover{
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  &:hover {
     background-color: $lightBrand1;
     color: $black;
   }
+  &:active {
+    border: none;
+    margin-top: 4px;
+  }
 }
-.button.small{
-  padding:1.286em 2.143em 1em;
+
+.button.small {
+  padding: 1.286em 2.143em 1em;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.articleCarousel {
+  margin: 0 auto;
+  display: block;
+  width: 90%;
+  max-width: 373px;
+  height: 316px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #e2e2e2;
+  .simulatedCover {
+    display: block;
+    border-bottom: 1 ps solid #e2e2e2;
+    height: 112px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      position: absolute;
+      width: 100%;
+      height: auto;
+      min-height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      @include transition(all 0.3s ease-out);
+    }
+
+    &:hover {
+      img {
+        width: 110%;
+      }
+    }
+  }
+  .social {
+    float: right;
+    p {
+      font-size: 0.5em;
+      text-transform: uppercase;
+      color: #999999;
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 0.7em;
+    }
+    ul {
+      display: inline-block;
+      vertical-align: middle;
+      li {
+        display: inline-block;
+        vertical-align: middle;
+        a {
+          i {
+            color: $brand1;
+          }
+          &:hover {
+            i {
+              color: $lightBrand1;
+            }
+          }
+        }
+      }
+    }
+  }
+  .content {
+    padding: 0.722em 0.722em 1.389em 1.389em;
+    a {
+      text-decoration: none;
+    }
+
+    .date {
+      font-size: 0.889em;
+      margin-top: 1.375em;
+      text-transform: uppercase;
+      font-size: $serif;
+
+      margin-bottom: 0.350em;
+      a {
+        color: $black;
+      }
+    }
+    h4 {
+      margin-bottom: 0.577em;
+      a {
+        color: $black;
+      }
+    }
+    .preview {
+      font-size: 0.778em;
+      a {
+        color: #666666;
+      }
+    }
+  }
+}
+
+.owl-buttons{
+  position: absolute;
+  width: 110%;
+  left: -5%;
+  top: 50%;
+
+  .owl-prev, .owl-next{
+    font-size: 2.5em;
+    transform: translateY( -50%);
+  }
+  .owl-prev{
+    float: left;
+  }
+  .owl-next{
+    float: right;
+  }
 }

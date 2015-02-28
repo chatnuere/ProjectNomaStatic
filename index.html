@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <meta charset="UTF-8">
+    <title>Vaincre NOMA - home</title>
     <link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
     <link href='style/css/main.css' rel='stylesheet' type='text/css'>
 </head>
 <body class="home">
@@ -27,7 +27,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="faire-un-don.html" class="button small">
+                    <a href="#" class="button small">
                         faire un Don
                     </a>
                 </li>
@@ -47,16 +47,173 @@
             <div class="last">
                 <p>...mais simple à éviter, avec peu de moyens...</p>
             </div>
-            <video width="900" height="400" id="videotest" preload="auto">
+            <video id="videotest" preload="auto">
                 <source src="media/video/Vaincre_Noma_Le_Noma_short.mp4" type="video/mp4"/>
                 Ici l'alternative à la vidéo : un lien de téléchargement, un message, etc.
             </video>
 
-            <input type="range" value="0" min="0" max="200" id="controlls" step="1">
-            <p><strong>10€</strong> Pour sauver une vie</p>
+            <div class="styledSlider" id="childVideo">
+                <input type="range" value="0" min="0" max="10" class="controlls" step="0.05">
+            </div>
+
+            <p><strong class="chiffres">10€</strong> Pour sauver une vie</p>
         </div>
     </section>
+    <section id="mainInformations">
+        <div class="wrapper">
+            <div class="theNoma">
+                <h2>Le Noma</h2>
+                <p><strong>Le Noma tue les enfants après leur avoir dévoré le visage.</strong></p>
+                   <p>Le Noma, également appelé maladie de la pauvreté a été éradiqué en Europe à la fin du 19ème siècle.</p>
+                   <p>Maladie bactérienne, il affecte d’abord la bouche puis ronge le visage des enfants.</p>
+                   <p>En l’absence de soins immédiats, il conduit souvent à une mort atroce.</p>
+                <a href="javascript:void(0)" class="button small">
+                    En savoir plus
+                </a>
+            </div>
+            <div class="general">
+                <p>
+                    <strong class="chiffres">140 000</strong>
+                    Cas de Noma <strong>par an</strong>
+                </p>
+                <p>
+                    <strong class="chiffres">2<span class="small"> à </span>6 ans</strong>
+                    <strong>Âge moyen</strong> des victimes
+                </p>
+                <p>
+                    <strong class="chiffres special">80</strong>
+                    <span class="special left">
+                        <strong class="chiffres">%</strong>
+                        <strong>De Mortalité</strong>
+                    </span>
+                </p>
+            </div>
+            <div class="map">
+                <h3>L'afrique</h3>
+                <p>Est le continent le plus touché</p>
+                <img src="media/img/content/contamination-noma.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <section id="mainVid">
+            <iframe width="655" height="365" src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&hd=1&color2=000000" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="shemas">
+        <h2>Comment se développe <strong>la maladie</strong> ?</h2>
+        <img src="media/img/content/shema-deroulement-noma.jpg" alt="">
+    </section>
+    <section id="homeCatchPhrase">
+        <p>
+            Facile à soigner, <strong class="colored">le Noma tue</strong><br/>
+            <strong>parce qu'il n'est <span class="colored"> pas connu</span></strong>.<br/>
+            <strong class="colored">Faire reculer le Noma</strong> est un enjeu<br/>
+            de prévention et d'accès aux soins<br/>
+        </p>
+    </section>
+    <section id="ourAction">
+        <div>
+        <h3>L'association <br/>et notre action</h3>
+        <p><strong>Pour lutter contre le Noma nous avons construit un programme autour de 3 objectifs :</strong></p>
+        <ul>
+            <li><i class="icon-ok"></i><p>Apprendre aux populations à reconnaître le Noma et permettre une prise en charge médicale rapide des enfants malades</p></li>
+            <li><i class="icon-ok"></i><p>Faire évoluer les comportements en terme de nutrition et d'hygiène bucco-dentaire</p></li>
+            <li><i class="icon-ok"></i><p>Renforcer la capacité des acteurs de santé à soigner le Noma par des traitements simples</p></li>
+        </ul>
+        <a href="javascript:void(0)" class="button small">
+            En savoir plus
+        </a>
+        </div>
+        <div>
+            <p><span class="chiffres">1457</span>acteurs de santé formés</p>
+            <p><span class="chiffres">180 000</span>enfants de <strong><span class="chiffres">2</span> à <span class="chiffres">6</span> ans</strong> dans la zone ciblée </p>
+        </div>
+        <img src="media/img/content/notreActionHome.jpg" alt="">
+
+    </section>
+
+    <section id="archiveCarousel">
+        <h3>Actualité</h3>
+
+        <nav class="owl-carousel">
+
+        </nav>
+    </section>
+
+    <section id="videoMap">
+        <video  id="MapChildrens" preload="auto">
+            <source src="media/video/childrens.mp4" type="video/mp4"/>
+            Ici l'alternative à la vidéo : un lien de téléchargement, un message, etc.
+        </video>
+
+        <h2>Grâce à vos dons, <strong>nous pouvons agir</strong>...</h2>
+        <aside class="left">
+            <h3>Sensibilisation des populations</h3>
+            <ul>
+                <li><div style="background-image: url('media/img/interface/crieurs.png')"></div><p>Crieurs <br/>à mobylette</p></li>
+                <li><div style="background-image: url('media/img/interface/theatres.png')"></div><p>Représentations <br/>théatrales</p></li>
+                <li><div style="background-image: url('media/img/interface/radio.png')"></div><p>Campagne radio</p></li>
+                <li><div style="background-image: url('media/img/interface/sensibilisation.png')"></div><p>Causeries</p></li>
+            </ul>
+        </aside>
+        <aside class="right">
+            <h3>Formation des acteurs de santé</h3>
+            <ul>
+                <li><p>Tradi-praticiens<br> dans les villages</p><div style="background-image: url('media/img/interface/tradi-praticiens.png')"></div></li>
+                <li><p>Sages femmes <br> et accoucheuses<br> auxilliaires</p><div style="background-image: url('media/img/interface/infirmiers.png')"></div></li>
+                <li><p>Agents de santé <br> communautaires<br> et itinérents</p><div style="background-image: url('media/img/interface/personels.png')"></div></li>
+                <li><p>Personnel des<br> dispensaires<br> et hôpitaux</p><div style="background-image: url('media/img/interface/dispensaires.png')"></div></li>
+            </ul>
+        </aside>
+
+        <div class="styledSlider" id="MapChildrensSlider">
+            <input type="range" value="0" min="0" max="150" class="controlls" step="1">
+        </div>
+
+        <p class="catchPhrase"><strong class="chiffres">Un don</strong> Pour sauver des enfants</p>
+        <a href="javascript:void(0)" class="button">
+            Faire un <strong>don</strong>
+        </a>
+    </section>
 </main>
+
+<footer>
+    <div class="footerWrapper">
+    <div>
+        <img src="media/img/content/logo-vaincre-noma.jpg" alt="">
+        <p>Site de l'association</p>
+    </div>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0);">Vaincre Noma</a></li>
+                <li><a href="javascript:void(0);">La maladie</a></li>
+                <li><a href="javascript:void(0);">L'association</a></li>
+                <li><a href="javascript:void(0);">Faire un don</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <nav class="social">
+            <a href="#" class="icon-twitter"></a>
+            <a href="#" class="icon-facebook"></a>
+            <a href="#" class="icon-gplus"></a>
+        </nav>
+        <p><span class="uppercase">Adresse</span><br>
+           L'Alliance 42 rue Rieussec<br>
+           78223 Viroflay</p>
+
+    </div>
+    </div>
+    <p class="copyright">&copy; 2014 vaincre NOMA</p>
+</footer>
+
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>

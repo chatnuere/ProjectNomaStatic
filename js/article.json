@@ -1,0 +1,94 @@
+{
+    "articles" : [
+        {
+            "img"            : "http://www.tsquirrel.com/_data/photos/2015/02/thumbs/5513__noma_noma-gangrenous-tissue.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://i.imgur.com/3V94Jqc.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://i.imgur.com/M0gyz9T.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://i.imgur.com/dUYms.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://i.imgur.com/HMh1sf2.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://i.imgur.com/lhhsVFn.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://i.imgur.com/m1Wg9Vt.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://www.tsquirrel.com/_data/photos/2015/02/thumbs/5513__noma_noma-gangrenous-tissue.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://i.imgur.com/YCvyERH.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        },
+        {
+            "img"            : "http://upload.wikimedia.org/wikipedia/commons/9/9a/Cologne_-_Panoramic_Image_of_the_old_town_at_dusk.jpg",
+            "alt"            : "Owl Image 1",
+            "articleUrl"     : "http://cba-design.com/fr/",
+            "archiveLink"    : "http://www.cba-design.com/fr/what-we-do",
+            "archiveText"    : "Decembre, 2014",
+            "articleTitle"   : "Site Internet",
+            "articlePreview" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi."
+        }
+    ]
+}

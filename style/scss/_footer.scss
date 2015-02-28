@@ -1,0 +1,74 @@
+footer{
+  background-color: $black;
+  color: $white;
+  a{
+    text-decoration: none;
+    color: $white;
+    @include transition(color 0.3s ease-out);
+    &:hover{
+      color: $brand1;
+    }
+  }
+  .footerWrapper{
+    background-color: #212121;
+    text-align: center;
+    padding-top: 0.722em;
+
+    >div{
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      margin-bottom: 1.111em;
+    }
+    >div:first-child{
+      padding-top: 0.667em;
+      img{
+        width: 189px;
+      }
+      p{
+        font-size: 0.667em;
+        margin-top: 1em;
+      }
+    }
+    >div:nth-child(2){
+      margin: 0 4.444em 1.111em;
+      padding-left: 3.889em;
+      ul{
+        width: 11.667em;
+        li{
+          font-size:0.667em ;
+          text-transform: uppercase;
+          border-bottom: 1px solid #4d4d4d;
+          a{
+            display: block;
+            padding: 1em 0;
+          }
+        }
+        li:last-child{
+          border: none;
+        }
+      }
+    }
+    >div:last-child{
+      padding-top: 0.667em;
+      .social{
+        margin-bottom: 0.750em;
+      }
+      p{
+        font-size: 0.667em;
+        line-height: 2em;
+        .uppercase{
+          text-transform: uppercase;
+        }
+      }
+    }
+
+  }
+
+  .copyright{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.667em;
+    padding: 2.333em 0;
+  }
+}

@@ -1,0 +1,42 @@
+/*Range input*/
+.ui-slider-horizontal{
+  width: 100%;
+  background: #3c3c3c;
+  height: 10px;
+  border: none;
+  @include border-radius(3px);
+
+}
+.ui-slider-range{
+  background: $darkBrand1;
+  border: none;
+  @include border-radius(3px);
+  @include box-shadow(rgba(0, 0, 0, 0.8) 0px 0px 2px inset);
+}
+.ui-slider .ui-slider-handle{
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  width: auto!important;
+  height: auto!important;
+  margin: 0;
+  white-space: nowrap;
+  min-width: 3.866em;
+  font-size: 0.862em;
+  font-family: $chiffres;
+  background: $brand1;
+  color: $black;
+  border: 2px solid shade($brand1, 10%);
+  cursor: pointer;
+  @include border-radius(50px);
+  padding: 0.3333em 0.3333em 0.05em ;
+  @include box-shadow(rgba(0, 0, 0, 0.5) -1px 0px 1px);
+  text-align: center;
+  top: -8px;
+  margin-left: -35px;
+
+}
+
+.styledSlider input[type='range']{
+  display: none;
+}
