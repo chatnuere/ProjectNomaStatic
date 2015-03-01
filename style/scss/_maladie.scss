@@ -1,0 +1,134 @@
+#laMaladie {
+  padding: 2.778em 0;
+  background-color: $black;
+  text-align: center;
+  img, div {
+    display: inline-block;
+    vertical-align: middle;
+    color: $white;
+  }
+  div {
+    text-align: left;
+    width: 90%;
+    max-width: 26.667em;
+    h1 {
+      font-family: $serif;
+      font-size: 1.556em;
+      margin-bottom: 0.786em;
+    }
+    p {
+      font-size: 1em;
+      margin-bottom: 0.8em;
+    }
+    p:last-child {
+      margin-bottom: 0
+    }
+  }
+}
+
+#evolution {
+  padding: 1em 0 0;
+  h3 {
+    text-align: center;
+    margin-bottom: 0.8em;
+  }
+
+  ul {
+    li {
+      margin-bottom: 5px;
+      position: relative;
+      .img, .description {
+        display: inline-block;
+        vertical-align: top;
+        vertical-align: middle;
+      }
+      .img {
+        height: 306px;
+        width: 354px;
+        overflow: hidden;
+        position: relative;
+        border-right: 5px solid #ffffff;
+        img {
+          height: 100%;
+          width: auto;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+
+        }
+      }
+      .img.blur{
+        overflow: hidden;
+        img{
+          cursor: pointer;
+          @include transition(all 0.3s ease-out);
+          @include filter(blur(15px));
+          &:hover{
+            @include filter(blur(0px));
+          }
+        }
+      }
+      .description {
+        @include calc(width, '100% - 364px');
+        .wrapper {
+          text-align: center;
+
+          i, div{
+            display: inline-block;
+            vertical-align: middle;
+            text-align: left;
+          }
+          i {
+            font-size: 9.611em;
+            color: $white;
+            font-family: $serif;
+            margin: 0 0.1em;
+          }
+          div {
+            max-width: 25.000em;
+            h2 {
+              color: #283c4c;
+              font-family: $sans-serif;
+              font-weight: 700;
+              font-size: 1.667em;
+              text-transform: none;
+              margin-bottom: 0.333em;
+            }
+            p {
+              font-size: 0.889em;
+              color: $black;
+              line-height: 1.3em;
+            }
+          }
+        }
+      }
+      svg{
+        fill: currentColor;
+        position: absolute;
+        z-index: 10;
+        bottom: -28px;
+        left: 50%;
+        -webkit-filter: drop-shadow(2px 5px 3px rgba(0, 0, 0, 0.2));
+        filter: drop-shadow(2px 5px 3px rgba(0, 0, 0, 0.2));
+      }
+    }
+
+    li:first-child {
+      color:#e4e8ec;
+      background-color: #e4e8ec;
+
+    }
+    li:nth-child(2) {
+      color:#cedce8;
+      background-color: #cedce8;
+      .img{
+        border-right: none;
+        border-left: 5px solid #ffffff;
+      }
+    }
+    li:last-child {
+      color:#a7becf;
+      background-color: #a7becf;
+    }
+  }
+}

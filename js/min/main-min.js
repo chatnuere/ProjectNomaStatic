@@ -1,1 +1,1 @@
-$(document).ready(function(){initHomePage()});
+$(document).ready(function(){initHomePage(),initPagination()});

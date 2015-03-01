@@ -90,8 +90,8 @@ var initHomePage = function () {
                         '<nav class="social">'+
                             '<p>Partager</p>'+
                             '<ul>'+
-                                '<li><a href="http://twitter.com/intent/tweet/?url='+encodeURIComponent(articleUrl)+'&text='+articleTitle+'"><i class="icon-twitter"></i></a></li><!--'+
-                             '--><li><a href=https://www.facebook.com/sharer/sharer.php?u="'+encodeURIComponent(articleUrl)+'"><i class="icon-facebook"></i></a></li><!--'+
+                                '<li><a target="_blank" href="http://twitter.com/intent/tweet/?url='+encodeURIComponent(articleUrl)+'&text='+articleTitle+'"><i class="icon-twitter"></i></a></li><!--'+
+                             '--><li><a target="_blank" href=https://www.facebook.com/sharer/sharer.php?u="'+encodeURIComponent(articleUrl)+'"><i class="icon-facebook"></i></a></li><!--'+
                              '--><li><a href="mailto:?subject='+articleTitle+'&body='+articleUrl+'"><i class="icon-mail"></i></a></li>'+
                             '</ul>'+
                         '</nav>'+
