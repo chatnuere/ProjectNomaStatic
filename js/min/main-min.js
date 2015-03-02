@@ -1,1 +1,1 @@
-$(document).ready(function(){initHomePage(),initPagination()});
+$(document).ready(function(){function n(n,o,e){var i,t;i=window.screen.width/2-(o/2+10),t=window.screen.height/2-(e/2+50),window.open(n,"Window2","status=no,height="+e+",width="+o+",resizable=yes,left="+i+",top="+t+",screenX="+i+",screenY="+t+",toolbar=no,menubar=no,scrollbars=no,location=no,directories=no")}$("body").hasClass("home")&&initHomePage(),$("body").hasClass("association")&&initPagination(),$("body").on("click",".windowed",function(o){o.preventDefault(),n($(this).attr("href"),545,433)})});
